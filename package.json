@@ -26,5 +26,7 @@
     "stripe": "^9.16.0",
     "validator": "^13.7.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack" : "5.74.0"
+  }
 }
