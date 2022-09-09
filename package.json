@@ -9,7 +9,7 @@
     "dev": "nodemon backend/server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "",
+  "author": "Sarthak",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -20,13 +20,14 @@
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.4.6",
+    "mongoose": "^6.5.4",
     "nodemailer": "^6.7.7",
     "nodemon": "^2.0.19",
     "stripe": "^9.16.0",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "webpack" : "5.74.0"
+    "webpack": "5.74.0"
   }
 }
